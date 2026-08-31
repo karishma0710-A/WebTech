@@ -1,108 +1,114 @@
 # WebTech
-# 🌐 HTML Fundamentals
 
-This repository contains my **HTML practice programs** created while learning the fundamentals of web development. It covers basic HTML elements, semantic tags, forms, tables, multimedia, hyperlinks, and page structure.
+# 🌐 Web Technology Practice
+
+This repository contains my **HTML, CSS, and JavaScript practice programs** created while learning and strengthening the fundamentals of web development. It covers webpage structure, styling, layouts, JavaScript programming, DOM manipulation, events, and other frontend concepts.
 
 ---
 
 ## 📌 Repository Overview
 
-The purpose of this repository is to strengthen my understanding of HTML by practicing commonly used tags and building simple web pages.
+The purpose of this repository is to strengthen my understanding of **frontend web technologies** through regular practice and implementation of commonly used concepts.
 
 ---
 
 ## 📚 Topics Covered
 
-### 📄 HTML Basics
-- Introduction to HTML
-- HTML Document Structure
-- Headings & Paragraphs
-- Text Formatting
+### 🌐 HTML
 
-### 🔗 Hyperlinks
-- Anchor Tags
-- Internal & External Links
+* HTML Document Structure
+* Headings & Paragraphs
+* Text Formatting
+* Links & Images
+* Lists
+* Tables
+* Forms
+* Input Elements
+* Div & Block/Inline Elements
+* Semantic HTML
+* Multimedia
+* Iframes
+* Basic Web Page Structure
 
-### 📑 Tables
-- Creating Tables
-- Table Rows & Columns
-- Table Formatting
+### 🎨 CSS
 
-### 📝 Forms
-- Form Elements
-- Input Controls
-- Labels
-- Buttons
+* CSS Syntax
+* Selectors
+* Colors & Backgrounds
+* Fonts & Text Styling
+* Box Model
+* Margin & Padding
+* Display Properties
+* Positioning
+* Flexbox
+* Basic Page Layouts
+* Responsive Design Fundamentals
 
-### 📦 Containers
-- Div Element
-- Block & Inline Elements
+### ⚡ JavaScript
 
-### 🎥 Multimedia
-- Images
-- Audio
-- Video
-
-### 🖼️ Iframes
-- Embedding Web Pages
-- YouTube Videos
-
-### 🏷️ Semantic HTML
-- Header
-- Nav
-- Section
-- Article
-- Aside
-- Footer
-
-### 📢 Other HTML Elements
-- Marquee
-- Lists
-- Comments
+* Variables & Data Types
+* Operators
+* Conditional Statements
+* Loops
+* Functions
+* Arrow Functions
+* Arrays
+* Strings
+* Objects
+* Array Methods
+* `map()`
+* `filter()`
+* `forEach()`
+* `reduce()`
+* `sort()`
+* Date Object
+* Closures
+* Function Currying
+* DOM Manipulation
+* DOM Selection
+* Changing HTML Content & Styles
+* Events & Event Handling
 
 ---
 
 ## 📂 Repository Structure
 
-```
-HTML_Fundamentals
+```text
+WebTech
 │
 ├── HTML/
-├── introduction.html
-├── anchor.html
-├── div.html
-├── form.html
-├── iframe.html
-├── marquee.html
-├── multimedia.html
-├── SemanticTag.html
-├── table.html
-├── table2.html
+├── CSS/
+├── JavaScript/
 └── README.md
 ```
+
+> The repository structure may vary depending on the practice files and exercises added during the learning process.
 
 ---
 
 ## 🛠 Technologies Used
 
-- HTML5
-- Visual Studio Code
-- Web Browser
+* HTML5
+* CSS3
+* JavaScript
+* Visual Studio Code
+* Web Browser
 
 ---
 
 ## 🚀 Learning Outcomes
 
-Through these practice programs, I learned:
+Through these practice programs, I have strengthened my understanding of:
 
-- HTML Document Structure
-- Semantic HTML
-- Hyperlinks
-- Tables
-- Forms
-- Multimedia Integration
-- Iframes
-- Basic Web Page Design
+* HTML document structure and semantic elements
+* CSS styling and layout techniques
+* Flexbox
+* JavaScript programming fundamentals
+* Arrays, strings and objects
+* JavaScript array methods
+* DOM manipulation
+* Event handling
+* Basic frontend problem-solving
 
 ---
 
@@ -114,20 +120,25 @@ Through these practice programs, I learned:
 git clone <repository-url>
 ```
 
-2. Open the project in Visual Studio Code.
+2. Open the repository in **Visual Studio Code**.
 
-3. Open any `.html` file in your preferred web browser.
+3. Navigate to the required HTML, CSS, or JavaScript file.
+
+4. Open the HTML files in a web browser to view the output.
+
+5. JavaScript programs can be executed through the browser console or by linking them to an HTML file.
 
 ---
 
 ## 📈 Future Enhancements
 
-- CSS Styling
-- Responsive Web Design
-- Flexbox
-- CSS Grid
-- JavaScript Integration
-- Mini Frontend Projects
+* Advanced JavaScript
+* Responsive Web Design
+* CSS Grid
+* Advanced DOM Manipulation
+* JavaScript Projects
+* API Integration
+* Frontend Mini Projects
 
 ---
 
@@ -135,7 +146,7 @@ git clone <repository-url>
 
 **Karishma A**
 
-🎓 B.Tech Information Technology (2026)
+🎓 B.Tech Information Technology — 2026
 
 💻 Aspiring Java Full Stack Developer
 
@@ -143,6 +154,6 @@ git clone <repository-url>
 
 ## ⭐ Acknowledgement
 
-This repository was created as part of my Web Development learning journey to build a strong foundation in HTML and frontend development.
+This repository was created as part of my **Web Technology learning journey** to build a strong foundation in HTML, CSS, and JavaScript through hands-on practice.
 
-⭐ If you found this repository useful, consider giving it a star!
+⭐ If you find this repository useful, consider giving it a star!
