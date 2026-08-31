@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right top,rgb(103, 205, 238),rgb(90, 240, 90));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner{
+    height: 400px;
+    width: 320px;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px black;
+
+    /* overflow: hidden;  hides the content outside the area */
+    /* overflow: scroll;  for scrolling the content or boxes*/
+
+    overflow: auto;
+}
+
+.inner > h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-bottom: 20px;
+}
+
+.inner > p{
+    font-size: 18px;
+    text-align:justify;
+    line-height: 24px;
+    
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}

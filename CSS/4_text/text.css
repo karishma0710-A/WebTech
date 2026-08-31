@@ -1,0 +1,16 @@
+
+.header > h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color:red;
+    text-shadow: -3px 4px 6px blue;
+                /*x-axis y-axis blur color*/
+}
+
+.header > p{
+    text-align: justify;
+    word-spacing: 10px;
+    text-indent: 50px;
+    line-height: 30px;
+}

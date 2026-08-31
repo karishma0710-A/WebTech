@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    background: linear-gradient(rgb(212, 236, 81),rgb(234, 132, 132));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+main > .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: up_down 1s ease-in infinite alternate ;
+}
+#c1{
+    background-color: rgb(236, 18, 54);
+    /* box-shadow: 2px 3px 6px black; */
+    
+}
+#c2{
+    background-color:green;
+    /* box-shadow: 2px 3px 6px black; */
+    animation-delay: 0.1s;
+    
+}
+#c3{
+    background-color: red;
+    /* box-shadow: 2px 3px 6px black; */
+    animation-delay: 0.2s;
+}
+#c4{
+    background-color: yellow;
+    /* box-shadow: 2px 3px 6px black; */
+    animation-delay: 0.3s;
+}
+#c5{
+    background-color: brown;
+    /* box-shadow: 2px 3px 6px black; */
+    animation-delay: 0.4s;
+}
+
+@keyframes up_down {
+    form{
+        transform: translatey(-100px);
+    }
+    to{
+        transform: translatey(100px);
+        box-shadow: 2px 4px 8px black;
+    }
+    
+}

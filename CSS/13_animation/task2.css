@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer2{
+    height: 100vh;
+    background: linear-gradient(rgb(245, 165, 16),black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.outer2 > .left{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+
+    animation: orbit 1s linear infinite;
+}
+
+.left>.box1{
+    height: 90px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+@keyframes orbit {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}

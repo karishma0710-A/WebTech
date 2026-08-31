@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+header{
+    height: 50vh;
+    background: linear-gradient(to left top,rgb(228, 236, 140),rgba(0, 0, 0, 0.814));
+}
+
+main{
+    height: 500px;
+    width: 900px;
+    background-color:white;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+    
+}
+footer{
+    height: 50vh;
+    background: linear-gradient(to right bottom,rgba(236, 95, 119, 0.818),rgba(0, 0, 0, 0.984));
+}
+/* left side */
+main>#l1{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    border-right: 1px solid #ccc;
+}
+aside>.left{
+    background-color: white;
+    /* flex-basis: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 370px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 6px 2px grey;
+    margin: 70px 40px;
+    margin-right: 40px;
+}
+
+#f1{
+    height: 200px;
+    width: 250px;
+    padding: 8px;
+    margin: 10px 0px;
+
+    text-transform: uppercase;
+}
+#f1>input{
+    display: block;
+    margin: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#f1>label{
+    display: block;
+    margin-bottom: 10px;
+}
+.b1{
+    height: 25px;
+    width: 230px;
+    border-radius: 5px;
+    background-color: rgb(235, 225, 225);
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+#lb{
+    background-color: rgb(106, 106, 240);
+    height: 30px;
+}
+#lb:hover{
+    background-color: green;
+    transform:scale(1.05);
+    transition: all ease 0.5s;
+}
+a{
+    text-decoration: none;
+}
+
+/* right side */
+main>#r1{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+/* #d1{
+    border-bottom: 3px dashed blue;
+} */ 
+ /* no need instead 3 divs */
+aside>.right{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 350px;
+    margin: 70px 40px;
+    margin-right: 40px;
+    gap: 30px;
+}
+.right>img{
+    object-fit: cover;
+    object-position: top;
+}
+.right>#d1>h2{
+    text-align: center;
+    margin: 10px 0px;
+
+    border-right: 4px solid black;
+    animation: textmagic 4s infinite steps(30) alternate;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.right>#d1>p{
+    font-size: 18px;
+    padding: 0px 15px;
+    font-style: italic;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+    gap: 20px;
+
+}
+section>.line{
+    height: 5px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+@keyframes textmagic{
+    from{
+        width: 0ch;
+    }
+    to{
+        width: 32ch;
+    }
+}

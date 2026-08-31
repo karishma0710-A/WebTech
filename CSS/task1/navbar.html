@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar1</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 100px;
+            color: white;
+            background-color: grey;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        nav > ul{
+            display: flex;
+            gap: 20px;
+        }
+
+        nav > ul> li{
+            text-transform: uppercase;
+            font-size: 19px;
+            font-weight: bold;
+            list-style: none;
+            letter-spacing: 1.4px;
+            cursor:pointer;
+            
+        }
+        nav > ul > li:hover{
+            color: darkgoldenrod;
+            text-decoration: underline;
+        }
+
+        nav >div> button {
+            width: 80px;
+            height: 25px;
+            border-radius: 8px;
+            box-shadow: 3px 4px 6px black;
+        }
+
+        nav >div> button:hover{
+            background-color: darkgoldenrod;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <h2>My Logo</h2>
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+        <div>
+        <button>Login</button>
+        <button>signup</button>
+        </div>
+        
+    </nav>
+
+</body>
+</html>

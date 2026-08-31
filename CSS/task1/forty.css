@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-rows: repeat(3,300px);
+    grid-template-columns: 40% 20% 40%;   
+}
+
+.art1{
+   background-image: url("https://html5up.net/uploads/demos/forty/images/pic01.jpg");
+}
+.art2{
+    background-image: url("https://html5up.net/uploads/demos/forty/images/pic02.jpg");
+    grid-column:span 2;
+}
+.art3{
+    background-image: url("https://html5up.net/uploads/demos/forty/images/pic03.jpg");
+    grid-column:span 2;
+}
+.art4{
+    background-image: url("https://html5up.net/uploads/demos/forty/images/pic04.jpg");
+}
+.art5{
+    background-image: url("https://html5up.net/uploads/demos/forty/images/pic05.jpg");
+}
+.art6{
+    background-image: url("https://html5up.net/uploads/demos/forty/images/pic06.jpg");
+    grid-column:span 2;
+}
+
+/* sometimes repeated imgs will be there so.. */
+main>article{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* next */
+main>article>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 1rem;
+    padding-left: 3rem;
+    color: white;
+}
+main>article>div>p{
+    border-top: 2px solid white;
+
+    width:30%;
+    font-size: 14px;
+    padding-top: 1rem;
+}
+
+.art1>div{
+    background-color: rgba(0, 255, 255, 0.432);
+}
+.art2>div{
+    background-color: rgba(128, 0, 128, 0.499);
+}
+.art3>div{
+    background-color: rgba(255, 0, 0, 0.511);
+}
+.art4>div{
+    background-color:rgba(255, 68, 0, 0.507);
+}
+.art5>div{
+    background-color:rgba(99, 99, 242, 0.464);
+}
+.art6>div{
+    background-color:rgba(0, 128, 0, 0.482);
+}
+
+/* to make fully transparent visible when hover */
+/* 1 */
+article>div:hover{
+    background-color: transparent;
+}
+
+@media (max-width:425px) {
+    main{
+    grid-template-rows: repeat(6,300px);
+    grid-template-columns:100%;
+    }
+
+    .art2{
+        grid-column: span 1;
+    }
+    .art3{
+        grid-column: span 1;
+    }
+    .art6{
+        grid-column: span 1;
+    }
+
+}
+

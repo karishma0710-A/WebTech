@@ -1,0 +1,39 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.outer{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:20px;
+
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    padding:20px;
+    background:linear-gradient(rgb(125,242,127),yellow);
+}
+
+.outer>img{
+    width:200px;
+    height:300px;
+    flex-shrink:0;
+
+    border-radius:15px;
+    box-shadow:2px 4px 6px gray;
+    transition:.5s;
+}
+
+.outer>img:hover{
+    transform:scale(1.04);
+    box-shadow:0 6px 15px black;
+}
+
+::-webkit-scrollbar{
+    display:none;
+}

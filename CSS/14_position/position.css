@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background:linear-gradient(skyblue,yellow,white,pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .middle{
+    height: 85%;
+    width: 85%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px black;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outer> .middle> .inner{
+    height: 85%;
+    width: 85%;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px black;
+   
+   
+    position: relative;
+
+}
+
+
+.inner > #box1{
+    height: 60px;
+    width: 60px;
+    background-color:lightcoral;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+
+
+
+    /* position: relative;
+    right: 40px;
+    top: 50px; */
+
+    /* position: absolute;
+    top: 30px;
+    left: 40px; */
+
+
+    position:absolute;
+
+    bottom: 0px;
+    right: 0px;
+}
+.inner > #box2{
+    height: 70px;
+    width: 70px;
+    background-color:gray;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+
+    position: absolute;
+    bottom: 0px;
+}
+.inner > #box3{
+    height: 80px;
+    width: 80px;
+    background-color:blue;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+   
+    position: absolute;
+}
+.inner > #box4{
+    height: 90px;
+    width: 90px;
+    background-color:green;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+   
+    position: absolute;
+    right: 0px;
+}
+.inner > #box5{
+    height: 100px;
+    width: 100px;
+    background-color:rebeccapurple;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+   
+
+    /* transform: translate(-45px,-45px); */
+     transform: translate(-50%,-50%);
+
+
+}
+

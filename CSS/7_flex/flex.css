@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 600px;
+    width: 800px;
+    border: 3px solid black;
+    /* to make the box in single line */
+    display: flex;
+    /* to make space and move  */
+        /* justify-content: center; */
+    /* to give space btw */
+        /* justify-content: space-around; */
+    /* to give equal space */
+    justify-content: space-evenly;
+
+    /* align itesms are another direction */
+        align-items: center;
+
+}
+.container > .box{
+    height: 70px;
+    width: 90px;
+    border: 2px solid lightcoral;
+}

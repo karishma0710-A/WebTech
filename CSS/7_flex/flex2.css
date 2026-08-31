@@ -1,0 +1,20 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height:100vh;
+    background-color:lightblue;
+    display: flex;
+    flex-wrap:wrap ;
+
+
+}
+main >.box{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+
+}     

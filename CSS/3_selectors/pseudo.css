@@ -1,0 +1,103 @@
+
+nav{
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+nav > h2:hover{
+    color: orange;
+}
+
+nav > #login{
+    background-color:pink;
+}
+/* when we hover  */
+nav > #login:hover{
+    background-color: green;
+}
+/* when we click it will be yellow */
+nav > #login:active{
+    background-color: yellow;
+}
+
+/* default color is pink */
+nav > #logout{
+    background-color:pink;
+}
+/* when we hover  */
+nav > #logout:hover{
+    background-color: green;
+}
+/* when we click it will be yellow */
+nav > #logout:active{
+    background-color: yellow;
+}
+
+main > ul > li:nth-child(3){
+    background-color: greenyellow;
+}
+
+/* to select even children */
+main > ol > li:nth-child(2n){
+    background-color: lightsalmon
+}
+
+/* to select odd children */
+main > ol > li:nth-child(2n+1){
+    background-color: darkorchid
+}
+
+/* for anchor tag  */
+main > a{
+    text-decoration: none;
+}
+main > a:visited{
+    color: seagreen
+}
+main > a:link{
+    color:violet 
+}
+
+/* psuedo element selector */
+section > p{
+    text-indent: 100px;
+    text-align: justify;
+}
+section > p::first-letter{
+    font-size: 50px;
+    color: crimson;
+}
+section > p::first-line{
+   font-style: italic;
+}
+
+section > h1{
+    text-transform:capitalize;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+section > h1::after{
+    content: "***";
+    color: red
+}
+section > h1::before{
+    content: "***";
+    color: red;
+}
+
+/*  */
+::selection{
+    background-color: green;
+    color: yellow;
+}
+
+section > ul >li::marker{
+    color: green;
+}
+
+section > ul > li:nth-child(2n)::marker{
+    color: red;
+}

@@ -1,0 +1,72 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: linear-gradient(rgb(238, 238, 104), rgb(245, 106, 106));
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main > section{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: 100px;
+    gap: 20px;
+
+    justify-content: center;
+}
+
+div{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: top;
+    transition: all 0.6s ease-in;
+}
+
+section > div:hover{
+    background-position: center;
+}
+
+#a1{
+    grid-row: span 2;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSUkLvTGtEuVbtxk54MxJiB5OTek10p34MnWO3kEywSA&s=10);
+}
+
+#a2{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/015/275/318/small_2x/beautiful-beach-tropical-beach-background-as-summer-landscape-white-sand-and-calm-sea-for-beach-banner-perfect-beach-scene-vacation-and-summer-holiday-concept-boost-up-color-process-photo.jpg);
+}
+
+#a3{
+    background-image: url(https://t3.ftcdn.net/jpg/03/17/61/02/360_F_317610235_VOxsIfYiNChJNo2GelwXJWlCI0So7rXS.jpg);
+}
+
+#a4{
+    grid-column: span 2;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrjNnZAtp_FN75ckGz0KI8BupD_Iof7dgJV6q7EHhipg&s=10);
+}
+
+#a5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiF1_xuuvXlc_Mgy559HjSwdiv95GZfyZDESDa0Gszg&s=10);
+}
+
+#a6{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5JDoeR_vcxYvdcY3IkMdcTWjqMBGMyxOWNfa_7JmYjg&s=10);
+}
+
+#a7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WKJEjdCWni09tHSNI4AWSoawScVYxTLeFHS-zFygZg&s=10);
+}

@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card1{
+    height: 370px;
+    width: 350px;
+    background-color: grey;
+    padding: 50px 50px;
+    /* padding: 30px; */
+
+    /* padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 25px;*/
+    /* padding-left: 15px;  -->for all 4sides but we can make it in one  */
+
+    margin: 35px;
+    /* border: 3px solid red; */
+    border-width: 3px;
+    border-style: dotted;
+    
+}
+
+.card1 > p{
+    text-align: justify;
+    border: 2px solid violet;
+    
+}
+
+#btn1{
+    padding: 25px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    background-color: orangered;
+    color: white;
+    text-shadow: 2px 5px 4px black;
+    margin-top: 10px;
+}
+#btn1:hover{
+    background-color: green;
+}
+.card1 > h2{
+    margin-top: 10px;
+    /* padding-top: 10px; both are correct but we shoul use margin for 2 different element*/
+    background-color: yellow;
+    
+}
+
+.card2{
+    background-color: lightpink;
+    width: 300px;
+    padding: 15px 25px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.card2 > .circle{
+    background-color:lightpink;
+    height: 100px;
+    width: 100px;
+    border:4px solid green;
+    border-radius: 50%;
+    margin: 0px auto;
+    /* margin auto for things .....textalign for text */
+}
+
+.card > h2{
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.card2 > p{
+    text-align: justify;
+}
+
+/* we can give border top,bottom,left,right */

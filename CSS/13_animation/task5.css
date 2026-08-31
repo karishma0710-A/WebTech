@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background: linear-gradient(to right top,green,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.outer > .inner{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.inner>.box{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: green;
+    animation: movingcircle 2s ease-in infinite alternate;
+}
+
+@keyframes movingcircle{
+
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(250px,0);
+    }
+    50%{
+        transform: translate(250px,250px);
+    }
+    75%{
+        transform: translate(0,250px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}

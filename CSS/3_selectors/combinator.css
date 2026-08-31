@@ -1,0 +1,47 @@
+.box1 {
+  background-color: lightgreen;
+}
+
+#box2 {
+  background-color: lightslategray;
+}
+
+.box3 {
+  background-color: lightcoral;
+}
+
+/* Descendant selector */
+.box1 h2 {
+  text-align: center;
+}
+
+/* direct child selector */
+.box1 > h1 {
+  color: darkred;
+}
+
+.box1 #box2 .box3 {
+  background-color: yellow;
+}
+
+.card > ul > #list4 {
+  background-color: red;
+}
+
+/* adjacent siblings */
+.card > ul > #list4 + li {
+  background-color: yellow;
+}
+
+/* general siblings */
+.card > ul > #list4 ~ li {
+  background-color: grey;
+}
+
+.card > ul > #list4 + li ~ li {
+  background-color: yellow;
+  text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height:900px;
+    background: linear-gradient(red,sandybrown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.outer>.inner{
+    background: linear-gradient(rgb(185, 230, 73),rgb(46, 227, 30));
+    height: 600px;
+    width: 600px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+#img1{
+    z-index: 3;
+    left: 200px;
+    bottom: 200px;
+    position: fixed;
+}
+#img2{
+    left: 200px;
+    position: fixed;
+    z-index: 2;
+}
+#img3{
+    position: fixed;
+    z-index: 1;
+}
+#img1:hover{
+    transform: rotate(360deg);
+    transition: all ease 4s;
+}

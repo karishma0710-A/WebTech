@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background: linear-gradient(rgb(162, 226, 237),pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+main > .name{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    animation: namess 2s ease-in infinite alternate;
+}
+#n2{
+    animation-delay: 0.1s;
+}
+#n3{
+    animation-delay: 0.2s;
+}
+#n3{
+    animation-delay: 0.3s;
+}
+#n4{
+    animation-delay: 0.4s;
+}
+#n5{
+    animation-delay: 0.5s;
+}
+#n6{
+    animation-delay: 0.6s;
+}
+#n7{
+    animation-delay: 0.7s;
+}
+#n8{
+    animation-delay: 0.8s;
+}
+
+@keyframes namess {
+    from{
+        transform: translatey(-100px);
+
+    }
+    to{
+        transform: translatey(100px);
+        box-shadow: 2px 6px 8px black;
+        color: red;
+    }
+}
+
+/* -------------------------------------------------------- */
+

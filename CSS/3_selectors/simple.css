@@ -1,0 +1,32 @@
+
+/* 1.tagname selector */
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+/* 2.id selector */
+#para1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* 3.class selector */
+.box{
+    background-color: chartreuse;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* universal seletor */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* group selector */
+#para1 , .box , h1{
+    font-style: italic;
+}
