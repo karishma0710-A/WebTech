@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <input type="text" placeholder="Enter name">
+        <input type="email" placeholder="Enter email">
+        <input type="password" placeholder="Enterpassword">
+        <button disabled>Submit</button>
+    </form>
+
+</body>
+<script>
+
+//1.
+// let myname = document.querySelectorAll("input")[0]
+// let myemail = document.querySelectorAll("input")[1]
+// let mypassword = document.querySelectorAll("input")[2]
+// let mybtn = document.querySelector("input")
+
+// let obj = {
+//     name : "",
+//     email : "",
+//     password : ""
+// }
+
+// myname.addEventListener("input" , ()=>{
+//     obj.name = myname.value
+//     console.log(obj);
+
+//     if(obj.name && obj.email && obj.password){
+//         mytbn.disabled = false
+//     }
+
+// })
+
+// myemail.addEventListener("input" , ()=>{
+//     obj.email = myemail.value
+//     console.log(obj);
+    
+// if(obj.name && obj.email && obj.password)
+//     mytbn.disabled = false
+// })
+// mypassword.addEventListener("input" , ()=>{
+//     obj.password = mypassword.value
+//     console.log(obj);
+    
+// if(obj.name && obj.email && obj.password)
+//     mytbn.disabled = false
+// })
+
+//2.
+let allInput = document.querySelectorAll("input")
+let mybtn = document.querySelector("button")
+
+allInput.forEach((ele)=>{
+    ele.addEventListener("input", ()=>{
+        let arrayInput = [...allInput]
+        let disabledvalue = arrayInput.every((e)=>{
+            if(e.value){
+                return true
+            }
+            mybtn.disabled = !disabledvalue
+        })
+    })
+})
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

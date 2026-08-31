@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Propogation</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        main,section,div,button{
+            padding: 2rem;
+        }
+
+        main{
+            background-color: lightblue;
+        }
+        section{
+            background-color: lightcoral;
+        }
+        div{
+            background-color: lightgreen;
+        }
+        button{
+            background-color: lightslategrey;
+        }
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <button>Click me</button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="eventprogate.js"></script>
+</html>
